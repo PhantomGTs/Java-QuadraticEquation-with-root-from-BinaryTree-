@@ -48,6 +48,7 @@ public class Main {
 
         System.out.print("КВАДРАТНЫЙ КОРЕНЬ С ИСПОЛЬЗОВАНИЕМ ДВОИЧНОГО ПОИСКА: ");
         System.out.print("sqrt 81 = " + sqareRoot(81));
+        System.out.print("; sqrt 8 = " + sqareRoot(25));
 //        System.out.print("sqrt 15 = " + sqareRoot(15));
     }
 
@@ -104,7 +105,12 @@ public class Main {
                 right = mid - 1;
             }
         }
-
-        return result;
+        if(result * result != n)
+        {
+            return -1;
+        }else
+        {
+            return result;
+        }
     }
 }
