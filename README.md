@@ -1,2 +1,2 @@
-## Моноиды и их приложения: моноидальные вычисления в деревьях
+## Алгоритм бинарного поиска
 https://www.algotree.org/algorithms/binary_search/squareroot/
